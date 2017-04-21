@@ -12,6 +12,8 @@
 		AA782EDF1EA96E8F0055C7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA782EDD1EA96E8F0055C7DD /* Main.storyboard */; };
 		AA782EE11EA96E8F0055C7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA782EE01EA96E8F0055C7DD /* Assets.xcassets */; };
 		AA782EE41EA96E8F0055C7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA782EE21EA96E8F0055C7DD /* LaunchScreen.storyboard */; };
+		AA782EEE1EA972BE0055C7DD /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA782EED1EA972BE0055C7DD /* PlacesViewController.swift */; };
+		AA782EF01EA9BA380055C7DD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA782EEF1EA9BA380055C7DD /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AA782EE01EA96E8F0055C7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA782EE31EA96E8F0055C7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA782EE51EA96E8F0055C7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA782EED1EA972BE0055C7DD /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		AA782EEF1EA9BA380055C7DD /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		AA782ED81EA96E8F0055C7DD /* memorable places app */ = {
 			isa = PBXGroup;
 			children = (
+				AA782EED1EA972BE0055C7DD /* PlacesViewController.swift */,
 				AA782ED91EA96E8F0055C7DD /* AppDelegate.swift */,
 				AA782EDB1EA96E8F0055C7DD /* ViewController.swift */,
 				AA782EDD1EA96E8F0055C7DD /* Main.storyboard */,
 				AA782EE01EA96E8F0055C7DD /* Assets.xcassets */,
 				AA782EE21EA96E8F0055C7DD /* LaunchScreen.storyboard */,
 				AA782EE51EA96E8F0055C7DD /* Info.plist */,
+				AA782EEF1EA9BA380055C7DD /* MapViewController.swift */,
 			);
 			path = "memorable places app";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA782EEE1EA972BE0055C7DD /* PlacesViewController.swift in Sources */,
 				AA782EDC1EA96E8F0055C7DD /* ViewController.swift in Sources */,
 				AA782EDA1EA96E8F0055C7DD /* AppDelegate.swift in Sources */,
+				AA782EF01EA9BA380055C7DD /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
